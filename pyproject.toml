@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "survey"
+version = "0.1.0"
+description = ""
+authors = ["adammlarge <large.adam.m@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.7.1"
+asciimatics = "^1.15.0"
+ascii-magic = "^2.3.0"
+typer = "^0.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
